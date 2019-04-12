@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "shoulda"
-  gem.add_runtime_dependency "fluentd"
+  gem.add_runtime_dependency "fluentd", [">= 0.10.58", "< 0.14"]
   gem.add_runtime_dependency "fluent-mixin-config-placeholders"
 end
